@@ -55,7 +55,7 @@ header {
   margin: 0px;
 }
 .nav-link :not(:last-child) {
-  padding-right: 30px;
+  padding-right: 50px;
 }
 .header-link {
   position: relative;
@@ -243,7 +243,8 @@ header {
   transform: translateY(100%);
   background: rgba(33, 150, 243, 0.9);
 }
-.port-container:hover .card-text {
+.port-container :hover .card-text,
+.port-container :focus .card-text {
   transform: translateY(0%);
 }
 .title-container {
@@ -557,7 +558,7 @@ header {
   margin-bottom: 30px;
 }
 .icon-box :not(:last-child) {
-  margin-right: 22px;
+  margin-right: 10px;
 }
 .link-icon {
   display: inline-flex;
