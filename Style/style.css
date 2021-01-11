@@ -394,7 +394,7 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* feature */
+/* features */
 
 .features {
   padding-top: 94px;
@@ -474,19 +474,22 @@ header {
   width: 370px;
   height: 294px;
 }
-.about-text {
+.text-box {
   position: absolute;
   bottom: 0;
   left: 0;
 
-  margin: 0;
   display: flex;
-  width: 370px;
-  height: 70px;
-
   justify-content: center;
   align-items: center;
-  text-align: center;
+
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.about-text {
+  margin: 0;
+  display: flex;
 
   font-weight: 500;
   font-size: 14px;
@@ -494,7 +497,6 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  background: rgba(47, 48, 58, 0.8);
   color: var(--main-title-color);
 }
 
